@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Prasanna Karagar</h1>
-<h3 align="center">### 👋 Hi, I'm Prasanna Karagar I’m a first-year **ISE student at REVA University**, aspiring to become a **Software Engineer**. Currently focused on **Web Development** and **DSA** to build strong fundamentals 💪</h3>
+<h3 align="center"> 👋 Hi, I'm Prasanna Karagar I’m a first-year ISE student at REVA University, aspiring to become a Software Engineer. Currently focused on Web Development and DSA to build strong fundamentals 💪</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prasannakaragar&label=Profile%20views&color=0e75b6&style=flat" alt="prasannakaragar" /> </p>
 
-- 🌱 I’m currently learning **Backend, DSA**
+- 🌱 I’m currently learning Backend, DSA
 
 - 📫 How to reach me **prasannakaragar6@gmail.com**
 
