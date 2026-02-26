@@ -1,9 +1,27 @@
-<h1 align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C2FF,100:7C7CFF&height=120&section=header&text=Hi%20%F0%9F%91%8B,%20I'm%20Prasanna%20Karagar&fontSize=30&fontColor=ffffff&animation=twinkling" />
-</h1>
 
-</h1>
-<h3 align="center"> 👋 Hi, I'm Prasanna Karagar I’m a first-year ISE student at REVA University, aspiring to become a Software Engineer. Currently focused on Web Development and DSA to build strong fundamentals 💪</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=700&lines=First+Year+ISE+Student+at+REVA+University;Web+Developer+%7C+DSA+Enthusiast;Future+Software+Engineer+%F0%9F%9A%80;Building+Cool+Projects+%F0%9F%94%A5" />
+</p>
+
+<h3 align="center">
+   Hi, I'm Prasanna Karagar – First-year ISE student at REVA University, aspiring Software Engineer.  
+  Currently focused on Web Development and DSA to build strong fundamentals 💪
+</h3>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,html,css,js,react&theme=dark" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mysql,git,github&theme=dark" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" />
+</p>
+
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prasannakaragar&label=Profile%20views&color=0e75b6&style=flat" alt="prasannakaragar" /> </p>
 
