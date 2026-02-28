@@ -10,8 +10,7 @@
 </h3>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" />
+  <img src="https://i.pinimg.com/originals/90/70/32/9070324cdfc07c68d60eed0c39e77573.gif" width="500">
 </p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prasannakaragar&label=Profile%20views&color=0e75b6&style=flat" alt="prasannakaragar" /> </p>
