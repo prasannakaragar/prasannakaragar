@@ -14,11 +14,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" />
 </p>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="500">
-</p>
-
-
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prasannakaragar&label=Profile%20views&color=0e75b6&style=flat" alt="prasannakaragar" /> </p>
 
 - 🌱 I’m currently learning Backend, DSA
