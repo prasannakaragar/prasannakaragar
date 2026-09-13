@@ -5,7 +5,7 @@
 </p>
 
 <h3 align="center">
-   Hi, I'm Prasanna Karagar – First-year ISE student at REVA University, aspiring Software Engineer.  
+   Hi, I'm Prasanna Karagar – Second-year ISE student at REVA University, aspiring Software Engineer.  
   Currently focused on DSA - CP - Backend to build strong fundamentals 💪
 </h3>
 
