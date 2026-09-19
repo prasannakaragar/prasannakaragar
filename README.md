@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=700&lines=First+Year+ISE+Student+at+REVA+University;Web+Developer+%7C+DSA+Enthusiast;Future+Software+Engineer+%F0%9F%9A%80;Building+Cool+Projects+%F0%9F%94%A5" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=700&lines=Second+Year+ISE+Student+at+REVA+University;Web+Developer+%7C+DSA+Enthusiast;Future+Software+Engineer+%F0%9F%9A%80;Building+Cool+Projects+%F0%9F%94%A5" />
 </p>
 
 <h3 align="center">
