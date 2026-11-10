@@ -1,35 +1,52 @@
+# Hi there, I'm Prasanna Karagar 👋
 
+<div align="center">
+
+![Hero](./assets/hero.svg?v=1)
+
+![About](./assets/about-life.svg?v=1)
+
+![Tech Stack](./assets/stack.svg?v=1)
+
+![Developer ID](./assets/id-dashboard.svg?v=1)
+
+![Connect](./assets/connect.svg?v=1)
+
+</div>
+
+---
+
+### 🌐 Connect With Me
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=700&lines=Second+Year+ISE+Student+at+REVA+University;Web+Developer+%7C+DSA+Enthusiast;Future+Software+Engineer+%F0%9F%9A%80;Building+Cool+Projects+%F0%9F%94%A5" />
+  <a href="https://linkedin.com/in/prasanna-karagar" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://www.leetcode.com/prasannakaragar" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
+  </a>
+  <a href="https://codeforces.com/profile/prasanna_karagar" target="_blank">
+    <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />
+  </a>
+  <a href="https://github.com/prasannakaragar" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="mailto:prasannakaragar6@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </p>
 
-<h3 align="center">
-   Hi, I'm Prasanna Karagar – Second-year ISE student at REVA University, aspiring Software Engineer.  
-  Currently focused on DSA - CP - Backend to build strong fundamentals 💪
-</h3>
+---
+
+### 🚀 Projects & Current Work
+
+| Project / Work | Description | Tech Stack | Status |
+|:---|:---|:---|:---|
+| **Building UniRank** | Modern web platform in active development. | `Node.js` `Express` `React` `MySQL` | 🔨 *In Active Development* |
+| **Student Academic Portfolio** | Modern responsive academic portfolio showcasing architecture, Git collaboration workflows, and static optimization. | `HTML5` `Modern CSS3` `Vanilla JS` `GitHub Pages` | [prasanna-k-2006/R25EQ059](https://github.com/prasanna-k-2006/R25EQ059) |
+
+---
 
 <p align="center">
-  <img src="https://i.pinimg.com/originals/90/70/32/9070324cdfc07c68d60eed0c39e77573.gif" width="500">
-</p>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=prasannakaragar&label=Profile%20views&color=0e75b6&style=flat" alt="prasannakaragar" /> </p>
-
-- 🌱 Currently focused on **CP • DSA • Web Development**
-
-- 📫 How to reach me **prasannakaragar6@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/prasanna-karagar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="prasanna-karagar" height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/prasanna_karagar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="prasanna_karagar" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/prasannakaragar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="prasannakaragar" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,html,css,js,react&theme=dark" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mysql,git,github&theme=dark" />
+  <sub>Crafted with precision • Verified REVA University ISE '27 Profile</sub>
 </p>
