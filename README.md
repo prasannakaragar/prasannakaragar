@@ -38,13 +38,12 @@
 
 ---
 
-### 🚀 Featured Engineering Projects
+### 🚀 Projects & Current Work
 
-| Project | Description | Tech Stack | Repository |
+| Project / Work | Description | Tech Stack | Status |
 |:---|:---|:---|:---|
-| **UniRank** | High-performance online examination & assessment platform with sandboxed code execution, real-time proctoring telemetry, automated scoring, and LLM integration. | `Node.js` `Express` `React` `Judge0` `Docker` `MySQL` `Supabase` | [prasannakaragar/UniRank](https://github.com/prasannakaragar/UniRank) |
-| **Exam-Portal** | Scalable examination portal with role-based access control (RBAC), exam security architecture, and anti-cheat event auditing telemetry. | `Node.js` `Express` `React` `Docker` `Telemetry Audit` | [prasannakaragar/Exam-Portal](https://github.com/prasannakaragar/Exam-Portal) |
-| **Academic Portfolio (R25EQ059)** | Modern responsive academic portfolio showcasing architecture, Git collaboration workflows, and static optimization. | `HTML5` `Modern CSS3` `Vanilla JS` `GitHub Pages` | [prasanna-k-2006/R25EQ059](https://github.com/prasanna-k-2006/R25EQ059) |
+| **Building UniRank** | High-performance online assessment & evaluation platform with sandboxed code execution, real-time proctoring telemetry, and automated scoring. | `Node.js` `Express` `React` `Judge0` `Docker` `MySQL` | 🔨 *In Active Development* |
+| **Student Academic Portfolio** | Modern responsive academic portfolio showcasing architecture, Git collaboration workflows, and static optimization. | `HTML5` `Modern CSS3` `Vanilla JS` `GitHub Pages` | [prasanna-k-2006/R25EQ059](https://github.com/prasanna-k-2006/R25EQ059) |
 
 ---
 

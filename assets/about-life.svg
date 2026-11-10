@@ -18,21 +18,21 @@
       .abt-font-display { font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
       .abt-font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }
 
-      /* 3-Slide Carousel Animation (12s cycle: 4s per slide) */
+      /* 3-Slide Carousel (12s cycle: 4s per slide) */
       @keyframes abtSlide1 {
         0%, 30% { opacity: 1; transform: translateY(0); }
-        33.3%, 96.7% { opacity: 0; transform: translateY(10px); }
+        33.3%, 96.7% { opacity: 0; transform: translateY(8px); }
         100% { opacity: 1; transform: translateY(0); }
       }
       @keyframes abtSlide2 {
-        0%, 30% { opacity: 0; transform: translateY(-10px); }
+        0%, 30% { opacity: 0; transform: translateY(-8px); }
         33.3%, 63.3% { opacity: 1; transform: translateY(0); }
-        66.6%, 100% { opacity: 0; transform: translateY(10px); }
+        66.6%, 100% { opacity: 0; transform: translateY(8px); }
       }
       @keyframes abtSlide3 {
-        0%, 63.3% { opacity: 0; transform: translateY(-10px); }
+        0%, 63.3% { opacity: 0; transform: translateY(-8px); }
         66.6%, 96.7% { opacity: 1; transform: translateY(0); }
-        100% { opacity: 0; transform: translateY(10px); }
+        100% { opacity: 0; transform: translateY(8px); }
       }
 
       /* Progress Bar Animations */
@@ -98,22 +98,22 @@
   <circle cx="425" cy="180" r="240" fill="url(#abt-blue-glow)"/>
 
   <!-- Section Header -->
-  <g transform="translate(40, 36)">
+  <g transform="translate(40, 34)">
     <rect x="0" y="0" width="8" height="8" rx="2" fill="#247bff"/>
     <text x="18" y="8" fill="#247bff" class="abt-font-mono" font-size="11" font-weight="600" letter-spacing="1.5">SECTION 02 // ABOUT &amp; FOCUS</text>
   </g>
 
-  <!-- ================= LEFT COLUMN: CAPABILITIES & ARCHITECTURE ================= -->
-  <g transform="translate(40, 70)">
-    <text x="0" y="24" fill="#f5f7ff" class="abt-font-display" font-size="22" font-weight="700" letter-spacing="-0.3">
+  <!-- ================= LEFT COLUMN ================= -->
+  <g transform="translate(40, 68)">
+    <text x="0" y="22" fill="#f5f7ff" class="abt-font-display" font-size="22" font-weight="700" letter-spacing="-0.3">
       ENGINEERING PHILOSOPHY
     </text>
 
-    <text x="0" y="52" fill="#8995ad" class="abt-font-display" font-size="13.5" font-weight="400">
+    <text x="0" y="50" fill="#8995ad" class="abt-font-display" font-size="13.5" font-weight="400">
       <tspan x="0" dy="0">Second-year Information Science student deeply invested in</tspan>
       <tspan x="0" dy="20">algorithmic rigor and scalable backend engineering. Passionate</tspan>
       <tspan x="0" dy="20">about writing efficient code, distributed systems, and real-time</tspan>
-      <tspan x="0" dy="20">examination telemetry platforms.</tspan>
+      <tspan x="0" dy="20">code assessment execution engines.</tspan>
     </text>
 
     <!-- Key Capability Cards -->
@@ -151,31 +151,28 @@
   <line x1="435" y1="65" x2="435" y2="330" stroke="#23334d" stroke-width="1" stroke-dasharray="3,3"/>
 
   <!-- ================= RIGHT COLUMN: 3-SLIDE CAROUSEL ================= -->
-  <g transform="translate(460, 55)">
-    <!-- Carousel Segment Progress Bars (3 segments) -->
+  <g transform="translate(455, 52)">
+    <!-- Progress Bars -->
     <g transform="translate(0, 0)">
-      <!-- Segment 1 -->
       <g transform="translate(0, 0)">
         <rect x="0" y="0" width="115" height="4" rx="2" fill="#1b2942"/>
         <rect x="0" y="0" width="0" height="4" rx="2" fill="#247bff" class="abt-bar-1"/>
       </g>
-      <!-- Segment 2 -->
       <g transform="translate(122, 0)">
         <rect x="0" y="0" width="115" height="4" rx="2" fill="#1b2942"/>
         <rect x="0" y="0" width="0" height="4" rx="2" fill="#247bff" class="abt-bar-2"/>
       </g>
-      <!-- Segment 3 -->
       <g transform="translate(244, 0)">
         <rect x="0" y="0" width="115" height="4" rx="2" fill="#1b2942"/>
         <rect x="0" y="0" width="0" height="4" rx="2" fill="#ff354f" class="abt-bar-3"/>
       </g>
     </g>
 
-    <!-- Slide Container (Card) -->
-    <rect x="0" y="16" width="355" height="260" rx="12" fill="#0d1726" stroke="#23334d" stroke-width="1"/>
+    <!-- Slide Container Card -->
+    <rect x="0" y="16" width="360" height="264" rx="12" fill="#0d1726" stroke="#23334d" stroke-width="1"/>
 
-    <!-- ================= SLIDE 1 ================= -->
-    <g class="abt-s1" transform="translate(24, 40)">
+    <!-- Slide 1 -->
+    <g class="abt-s1" transform="translate(24, 38)">
       <rect x="0" y="0" width="180" height="22" rx="4" fill="#247bff" fill-opacity="0.15"/>
       <text x="8" y="15" fill="#247bff" class="abt-font-mono" font-size="10.5" font-weight="600" letter-spacing="1">01 // CORE PASSION</text>
       
@@ -187,53 +184,50 @@
         <tspan x="0" dy="19">and dynamic programming solutions.</tspan>
       </text>
 
-      <!-- Highlights Box -->
       <g transform="translate(0, 142)">
-        <rect x="0" y="0" width="308" height="64" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
-        <text x="14" y="24" fill="#247bff" class="abt-font-mono" font-size="11">✓ Active on LeetCode &amp; Codeforces</text>
-        <text x="14" y="46" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Focus: C++ STL &amp; Optimal Time Complexity</text>
+        <rect x="0" y="0" width="312" height="66" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
+        <text x="14" y="25" fill="#247bff" class="abt-font-mono" font-size="11">✓ Active on LeetCode &amp; Codeforces</text>
+        <text x="14" y="47" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Focus: C++ STL &amp; Optimal Time Complexity</text>
       </g>
     </g>
 
-    <!-- ================= SLIDE 2 ================= -->
-    <g class="abt-s2" transform="translate(24, 40)">
+    <!-- Slide 2 -->
+    <g class="abt-s2" transform="translate(24, 38)">
       <rect x="0" y="0" width="200" height="22" rx="4" fill="#247bff" fill-opacity="0.15"/>
       <text x="8" y="15" fill="#247bff" class="abt-font-mono" font-size="10.5" font-weight="600" letter-spacing="1">02 // ARCHITECTURE &amp; BUILD</text>
       
-      <text x="0" y="48" fill="#f5f7ff" class="abt-font-display" font-size="19" font-weight="700">Backend &amp; Code Engines</text>
+      <text x="0" y="48" fill="#f5f7ff" class="abt-font-display" font-size="19" font-weight="700">Building UniRank Platform</text>
       
       <text x="0" y="76" fill="#8995ad" class="abt-font-display" font-size="13">
-        <tspan x="0" dy="0">Architecting automated code evaluation and</tspan>
-        <tspan x="0" dy="19">proctoring pipelines like UniRank. Handling</tspan>
+        <tspan x="0" dy="0">Engineering UniRank — an automated code</tspan>
+        <tspan x="0" dy="19">evaluation &amp; assessment platform. Handling</tspan>
         <tspan x="0" dy="19">sandboxed execution with Docker &amp; Judge0.</tspan>
       </text>
 
-      <!-- Highlights Box -->
       <g transform="translate(0, 142)">
-        <rect x="0" y="0" width="308" height="64" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
-        <text x="14" y="24" fill="#00e599" class="abt-font-mono" font-size="11">✓ Sandboxed Execution (Docker / Judge0)</text>
-        <text x="14" y="46" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Node.js • Express • MySQL Schemas</text>
+        <rect x="0" y="0" width="312" height="66" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
+        <text x="14" y="25" fill="#00e599" class="abt-font-mono" font-size="11">✓ Sandboxed Execution (Docker / Judge0)</text>
+        <text x="14" y="47" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Node.js • Express • MySQL Schemas</text>
       </g>
     </g>
 
-    <!-- ================= SLIDE 3 ================= -->
-    <g class="abt-s3" transform="translate(24, 40)">
+    <!-- Slide 3 -->
+    <g class="abt-s3" transform="translate(24, 38)">
       <rect x="0" y="0" width="205" height="22" rx="4" fill="#ff354f" fill-opacity="0.15"/>
       <text x="8" y="15" fill="#ff354f" class="abt-font-mono" font-size="10.5" font-weight="600" letter-spacing="1">03 // SYSTEMS &amp; INTEGRITY</text>
       
       <text x="0" y="48" fill="#f5f7ff" class="abt-font-display" font-size="19" font-weight="700">Secure Platform Telemetry</text>
       
       <text x="0" y="76" fill="#8995ad" class="abt-font-display" font-size="13">
-        <tspan x="0" dy="0">Developing the Exam Portal platform with</tspan>
-        <tspan x="0" dy="19">real-time anti-cheat event auditing, role-based</tspan>
-        <tspan x="0" dy="19">access controls, and robust session security.</tspan>
+        <tspan x="0" dy="0">Developing platforms with real-time audit</tspan>
+        <tspan x="0" dy="19">logging, role-based access control (RBAC),</tspan>
+        <tspan x="0" dy="19">and anti-cheat event verification pipelines.</tspan>
       </text>
 
-      <!-- Highlights Box -->
       <g transform="translate(0, 142)">
-        <rect x="0" y="0" width="308" height="64" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
-        <text x="14" y="24" fill="#ff354f" class="abt-font-mono" font-size="11">✓ Anti-Cheat &amp; Telemetry Audits</text>
-        <text x="14" y="46" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Role-Based Access Control (RBAC)</text>
+        <rect x="0" y="0" width="312" height="66" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
+        <text x="14" y="25" fill="#ff354f" class="abt-font-mono" font-size="11">✓ Anti-Cheat &amp; Telemetry Audits</text>
+        <text x="14" y="47" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Role-Based Access Control (RBAC)</text>
       </g>
     </g>
   </g>
