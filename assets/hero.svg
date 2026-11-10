@@ -41,32 +41,26 @@
         50% { opacity: 0.6; transform: scale(1.05); }
       }
 
-      /* 4 Cycling Roles (12s total: 3s each) */
+      /* 3 Cycling Roles (9s total: 3s each) */
       @keyframes heroRole1 {
-        0%, 22% { opacity: 1; transform: translateY(0); }
-        25%, 97% { opacity: 0; transform: translateY(-6px); }
-        98%, 100% { opacity: 0; transform: translateY(6px); }
+        0%, 28% { opacity: 1; transform: translateY(0); }
+        33.3%, 95% { opacity: 0; transform: translateY(-6px); }
+        98%, 100% { opacity: 1; transform: translateY(0); }
       }
       @keyframes heroRole2 {
-        0%, 22% { opacity: 0; transform: translateY(6px); }
-        25%, 47% { opacity: 1; transform: translateY(0); }
-        50%, 100% { opacity: 0; transform: translateY(-6px); }
+        0%, 28% { opacity: 0; transform: translateY(6px); }
+        33.3%, 61% { opacity: 1; transform: translateY(0); }
+        66.6%, 100% { opacity: 0; transform: translateY(-6px); }
       }
       @keyframes heroRole3 {
-        0%, 47% { opacity: 0; transform: translateY(6px); }
-        50%, 72% { opacity: 1; transform: translateY(0); }
-        75%, 100% { opacity: 0; transform: translateY(-6px); }
-      }
-      @keyframes heroRole4 {
-        0%, 72% { opacity: 0; transform: translateY(6px); }
-        75%, 97% { opacity: 1; transform: translateY(0); }
+        0%, 61% { opacity: 0; transform: translateY(6px); }
+        66.6%, 95% { opacity: 1; transform: translateY(0); }
         98%, 100% { opacity: 0; transform: translateY(-6px); }
       }
 
-      .hero-role-1 { animation: heroRole1 12s infinite; animation-fill-mode: both; }
-      .hero-role-2 { animation: heroRole2 12s infinite; animation-fill-mode: both; }
-      .hero-role-3 { animation: heroRole3 12s infinite; animation-fill-mode: both; }
-      .hero-role-4 { animation: heroRole4 12s infinite; animation-fill-mode: both; }
+      .hero-role-1 { animation: heroRole1 9s infinite; animation-fill-mode: both; }
+      .hero-role-2 { animation: heroRole2 9s infinite; animation-fill-mode: both; }
+      .hero-role-3 { animation: heroRole3 9s infinite; animation-fill-mode: both; }
 
       .hero-cursor { animation: heroBlink 1s infinite; }
       .hero-inner-float { animation: heroFloatInner 4.5s ease-in-out infinite; }
@@ -75,7 +69,7 @@
       @media (prefers-reduced-motion: reduce) {
         * { animation: none !important; }
         .hero-role-1 { opacity: 1 !important; transform: none !important; }
-        .hero-role-2, .hero-role-3, .hero-role-4 { display: none !important; }
+        .hero-role-2, .hero-role-3 { display: none !important; }
       }
     </style>
 
@@ -177,22 +171,19 @@
     </g>
   </g>
 
-  <!-- 4 Rotating Developer Roles Badge (Y=162) -->
+  <!-- 3 Rotating Developer Roles Badge (Y=162) -->
   <g transform="translate(42, 162)">
-    <rect x="0" y="0" width="330" height="32" rx="8" fill="url(#hero-badge-grad)" stroke="#247bff" stroke-width="1" stroke-opacity="0.4"/>
+    <rect x="0" y="0" width="350" height="32" rx="8" fill="url(#hero-badge-grad)" stroke="#247bff" stroke-width="1" stroke-opacity="0.4"/>
     <path d="M14 10 L22 10 L16 16 L22 16 L12 24 L14 17 L10 17 Z" fill="#ff354f"/>
     
     <g class="hero-role-1">
-      <text x="32" y="21" fill="#f5f7ff" class="hero-font-mono" font-size="12.5" font-weight="600" letter-spacing="1.2">BACKEND ENGINEER</text>
+      <text x="32" y="21" fill="#f5f7ff" class="hero-font-mono" font-size="11.5" font-weight="600" letter-spacing="1">DSA &amp; CP ENTHUSIAST</text>
     </g>
     <g class="hero-role-2">
-      <text x="32" y="21" fill="#f5f7ff" class="hero-font-mono" font-size="12.5" font-weight="600" letter-spacing="1.2">DSA &amp; CP SPECIALIST</text>
+      <text x="32" y="21" fill="#f5f7ff" class="hero-font-mono" font-size="11.5" font-weight="600" letter-spacing="1">FULL STACK DEVELOPER</text>
     </g>
     <g class="hero-role-3">
-      <text x="32" y="21" fill="#f5f7ff" class="hero-font-mono" font-size="12.5" font-weight="600" letter-spacing="1.2">SYSTEM DESIGN ENTHUSIAST</text>
-    </g>
-    <g class="hero-role-4">
-      <text x="32" y="21" fill="#f5f7ff" class="hero-font-mono" font-size="12.5" font-weight="600" letter-spacing="1.2">FULL-STACK DEVELOPER</text>
+      <text x="32" y="21" fill="#f5f7ff" class="hero-font-mono" font-size="11.5" font-weight="600" letter-spacing="1">SOFTWARE ENGINEERING IN PROGRESS</text>
     </g>
   </g>
 
@@ -200,7 +191,7 @@
   <g transform="translate(42, 222)">
     <text x="0" y="0" fill="#8995ad" class="hero-font-display" font-size="14" font-weight="400">
       <tspan x="0" dy="0">Information Science undergraduate at REVA University building scalable</tspan>
-      <tspan x="0" dy="21">backend architectures, algorithmic solvers, and high-performance engines.</tspan>
+      <tspan x="0" dy="21">web applications, algorithmic solutions, and modern software systems.</tspan>
     </text>
   </g>
 

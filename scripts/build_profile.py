@@ -90,32 +90,26 @@ def build_hero():
         50% {{ opacity: 0.6; transform: scale(1.05); }}
       }}
 
-      /* 4 Cycling Roles (12s total: 3s each) */
+      /* 3 Cycling Roles (9s total: 3s each) */
       @keyframes heroRole1 {{
-        0%, 22% {{ opacity: 1; transform: translateY(0); }}
-        25%, 97% {{ opacity: 0; transform: translateY(-6px); }}
-        98%, 100% {{ opacity: 0; transform: translateY(6px); }}
+        0%, 28% {{ opacity: 1; transform: translateY(0); }}
+        33.3%, 95% {{ opacity: 0; transform: translateY(-6px); }}
+        98%, 100% {{ opacity: 1; transform: translateY(0); }}
       }}
       @keyframes heroRole2 {{
-        0%, 22% {{ opacity: 0; transform: translateY(6px); }}
-        25%, 47% {{ opacity: 1; transform: translateY(0); }}
-        50%, 100% {{ opacity: 0; transform: translateY(-6px); }}
+        0%, 28% {{ opacity: 0; transform: translateY(6px); }}
+        33.3%, 61% {{ opacity: 1; transform: translateY(0); }}
+        66.6%, 100% {{ opacity: 0; transform: translateY(-6px); }}
       }}
       @keyframes heroRole3 {{
-        0%, 47% {{ opacity: 0; transform: translateY(6px); }}
-        50%, 72% {{ opacity: 1; transform: translateY(0); }}
-        75%, 100% {{ opacity: 0; transform: translateY(-6px); }}
-      }}
-      @keyframes heroRole4 {{
-        0%, 72% {{ opacity: 0; transform: translateY(6px); }}
-        75%, 97% {{ opacity: 1; transform: translateY(0); }}
+        0%, 61% {{ opacity: 0; transform: translateY(6px); }}
+        66.6%, 95% {{ opacity: 1; transform: translateY(0); }}
         98%, 100% {{ opacity: 0; transform: translateY(-6px); }}
       }}
 
-      .hero-role-1 {{ animation: heroRole1 12s infinite; animation-fill-mode: both; }}
-      .hero-role-2 {{ animation: heroRole2 12s infinite; animation-fill-mode: both; }}
-      .hero-role-3 {{ animation: heroRole3 12s infinite; animation-fill-mode: both; }}
-      .hero-role-4 {{ animation: heroRole4 12s infinite; animation-fill-mode: both; }}
+      .hero-role-1 {{ animation: heroRole1 9s infinite; animation-fill-mode: both; }}
+      .hero-role-2 {{ animation: heroRole2 9s infinite; animation-fill-mode: both; }}
+      .hero-role-3 {{ animation: heroRole3 9s infinite; animation-fill-mode: both; }}
 
       .hero-cursor {{ animation: heroBlink 1s infinite; }}
       .hero-inner-float {{ animation: heroFloatInner 4.5s ease-in-out infinite; }}
@@ -124,7 +118,7 @@ def build_hero():
       @media (prefers-reduced-motion: reduce) {{
         * {{ animation: none !important; }}
         .hero-role-1 {{ opacity: 1 !important; transform: none !important; }}
-        .hero-role-2, .hero-role-3, .hero-role-4 {{ display: none !important; }}
+        .hero-role-2, .hero-role-3 {{ display: none !important; }}
       }}
     </style>
 
@@ -226,22 +220,19 @@ def build_hero():
     </g>
   </g>
 
-  <!-- 4 Rotating Developer Roles Badge (Y=162) -->
+  <!-- 3 Rotating Developer Roles Badge (Y=162) -->
   <g transform="translate(42, 162)">
-    <rect x="0" y="0" width="330" height="32" rx="8" fill="url(#hero-badge-grad)" stroke="#247bff" stroke-width="1" stroke-opacity="0.4"/>
+    <rect x="0" y="0" width="350" height="32" rx="8" fill="url(#hero-badge-grad)" stroke="#247bff" stroke-width="1" stroke-opacity="0.4"/>
     <path d="M14 10 L22 10 L16 16 L22 16 L12 24 L14 17 L10 17 Z" fill="#ff354f"/>
     
     <g class="hero-role-1">
-      <text x="32" y="21" fill="#f5f7ff" class="hero-font-mono" font-size="12.5" font-weight="600" letter-spacing="1.2">BACKEND ENGINEER</text>
+      <text x="32" y="21" fill="#f5f7ff" class="hero-font-mono" font-size="11.5" font-weight="600" letter-spacing="1">DSA &amp; CP ENTHUSIAST</text>
     </g>
     <g class="hero-role-2">
-      <text x="32" y="21" fill="#f5f7ff" class="hero-font-mono" font-size="12.5" font-weight="600" letter-spacing="1.2">DSA &amp; CP SPECIALIST</text>
+      <text x="32" y="21" fill="#f5f7ff" class="hero-font-mono" font-size="11.5" font-weight="600" letter-spacing="1">FULL STACK DEVELOPER</text>
     </g>
     <g class="hero-role-3">
-      <text x="32" y="21" fill="#f5f7ff" class="hero-font-mono" font-size="12.5" font-weight="600" letter-spacing="1.2">SYSTEM DESIGN ENTHUSIAST</text>
-    </g>
-    <g class="hero-role-4">
-      <text x="32" y="21" fill="#f5f7ff" class="hero-font-mono" font-size="12.5" font-weight="600" letter-spacing="1.2">FULL-STACK DEVELOPER</text>
+      <text x="32" y="21" fill="#f5f7ff" class="hero-font-mono" font-size="11.5" font-weight="600" letter-spacing="1">SOFTWARE ENGINEERING IN PROGRESS</text>
     </g>
   </g>
 
@@ -249,7 +240,7 @@ def build_hero():
   <g transform="translate(42, 222)">
     <text x="0" y="0" fill="#8995ad" class="hero-font-display" font-size="14" font-weight="400">
       <tspan x="0" dy="0">Information Science undergraduate at REVA University building scalable</tspan>
-      <tspan x="0" dy="21">backend architectures, algorithmic solvers, and high-performance engines.</tspan>
+      <tspan x="0" dy="21">web applications, algorithmic solutions, and modern software systems.</tspan>
     </text>
   </g>
 
@@ -343,17 +334,17 @@ def build_about():
       /* Progress Bar Animations */
       @keyframes abtProgress1 {{
         0% {{ width: 0px; }}
-        33.3% {{ width: 115px; }}
+        33.3% {{ width: 112px; }}
         33.4%, 100% {{ width: 0px; }}
       }}
       @keyframes abtProgress2 {{
         0%, 33.3% {{ width: 0px; }}
-        66.6% {{ width: 115px; }}
+        66.6% {{ width: 112px; }}
         66.7%, 100% {{ width: 0px; }}
       }}
       @keyframes abtProgress3 {{
         0%, 66.6% {{ width: 0px; }}
-        99.9% {{ width: 115px; }}
+        99.9% {{ width: 112px; }}
         100% {{ width: 0px; }}
       }}
 
@@ -369,7 +360,7 @@ def build_about():
         * {{ animation: none !important; }}
         .abt-s1 {{ opacity: 1 !important; transform: none !important; }}
         .abt-s2, .abt-s3 {{ display: none !important; }}
-        .abt-bar-1 {{ width: 115px !important; }}
+        .abt-bar-1 {{ width: 112px !important; }}
       }}
     </style>
 
@@ -409,66 +400,66 @@ def build_about():
   </g>
 
   <!-- ================= LEFT COLUMN ================= -->
-  <g transform="translate(40, 68)">
+  <g transform="translate(40, 64)">
     <text x="0" y="22" fill="#f5f7ff" class="abt-font-display" font-size="22" font-weight="700" letter-spacing="-0.3">
       ENGINEERING PHILOSOPHY
     </text>
 
-    <text x="0" y="50" fill="#8995ad" class="abt-font-display" font-size="13.5" font-weight="400">
+    <text x="0" y="50" fill="#8995ad" class="abt-font-display" font-size="13" font-weight="400">
       <tspan x="0" dy="0">Second-year Information Science student deeply invested in</tspan>
-      <tspan x="0" dy="20">algorithmic rigor and scalable backend engineering. Passionate</tspan>
-      <tspan x="0" dy="20">about writing efficient code, distributed systems, and real-time</tspan>
-      <tspan x="0" dy="20">code assessment execution engines.</tspan>
+      <tspan x="0" dy="20">algorithmic rigor and full stack development.</tspan>
+      <tspan x="0" dy="20">Passionate about problem solving, clean code,</tspan>
+      <tspan x="0" dy="20">and software engineering in progress.</tspan>
     </text>
 
     <!-- Key Capability Cards -->
     <g transform="translate(0, 134)">
       <!-- Item 1 -->
       <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="370" height="42" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
+        <rect x="0" y="0" width="360" height="42" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
         <circle cx="20" cy="21" r="10" fill="#247bff" fill-opacity="0.2"/>
         <text x="16" y="25" fill="#247bff" font-size="11">⚡</text>
-        <text x="38" y="25" fill="#f5f7ff" class="abt-font-mono" font-size="11.5" font-weight="600">HIGH-PERFORMANCE BACKEND</text>
-        <text x="245" y="25" fill="#8995ad" class="abt-font-mono" font-size="10.5">Node • Express • APIs</text>
+        <text x="38" y="25" fill="#f5f7ff" class="abt-font-mono" font-size="11.5" font-weight="600">FULL STACK DEVELOPER</text>
+        <text x="215" y="25" fill="#8995ad" class="abt-font-mono" font-size="10.5">Node • Express • React</text>
       </g>
 
       <!-- Item 2 -->
       <g transform="translate(0, 50)">
-        <rect x="0" y="0" width="370" height="42" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
+        <rect x="0" y="0" width="360" height="42" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
         <circle cx="20" cy="21" r="10" fill="#ff354f" fill-opacity="0.2"/>
         <text x="15" y="25" fill="#ff354f" font-size="11">🧠</text>
-        <text x="38" y="25" fill="#f5f7ff" class="abt-font-mono" font-size="11.5" font-weight="600">DSA &amp; PROBLEM SOLVING</text>
-        <text x="245" y="25" fill="#8995ad" class="abt-font-mono" font-size="10.5">C++ • DP • Graphs</text>
+        <text x="38" y="25" fill="#f5f7ff" class="abt-font-mono" font-size="11.5" font-weight="600">DSA &amp; CP ENTHUSIAST</text>
+        <text x="235" y="25" fill="#8995ad" class="abt-font-mono" font-size="10.5">C++ • DP • Graphs</text>
       </g>
 
       <!-- Item 3 -->
       <g transform="translate(0, 100)">
-        <rect x="0" y="0" width="370" height="42" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
+        <rect x="0" y="0" width="360" height="42" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
         <circle cx="20" cy="21" r="10" fill="#00e599" fill-opacity="0.2"/>
-        <text x="15" y="25" fill="#00e599" font-size="11">🛡️</text>
-        <text x="38" y="25" fill="#f5f7ff" class="abt-font-mono" font-size="11.5" font-weight="600">INTEGRITY &amp; SANDBOXES</text>
-        <text x="245" y="25" fill="#8995ad" class="abt-font-mono" font-size="10.5">Judge0 • Docker • RBAC</text>
+        <text x="15" y="25" fill="#00e599" font-size="11">🚀</text>
+        <text x="38" y="25" fill="#f5f7ff" class="abt-font-mono" font-size="11.5" font-weight="600">SOFTWARE ENGINEERING</text>
+        <text x="230" y="25" fill="#8995ad" class="abt-font-mono" font-size="10.5">In Active Progress</text>
       </g>
     </g>
   </g>
 
   <!-- Vertical Divider -->
-  <line x1="435" y1="65" x2="435" y2="330" stroke="#23334d" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="425" y1="52" x2="425" y2="330" stroke="#23334d" stroke-width="1" stroke-dasharray="3,3"/>
 
   <!-- ================= RIGHT COLUMN: 3-SLIDE CAROUSEL ================= -->
-  <g transform="translate(455, 52)">
+  <g transform="translate(450, 52)">
     <!-- Progress Bars -->
     <g transform="translate(0, 0)">
       <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="115" height="4" rx="2" fill="#1b2942"/>
+        <rect x="0" y="0" width="112" height="4" rx="2" fill="#1b2942"/>
         <rect x="0" y="0" width="0" height="4" rx="2" fill="#247bff" class="abt-bar-1"/>
       </g>
-      <g transform="translate(122, 0)">
-        <rect x="0" y="0" width="115" height="4" rx="2" fill="#1b2942"/>
+      <g transform="translate(124, 0)">
+        <rect x="0" y="0" width="112" height="4" rx="2" fill="#1b2942"/>
         <rect x="0" y="0" width="0" height="4" rx="2" fill="#247bff" class="abt-bar-2"/>
       </g>
-      <g transform="translate(244, 0)">
-        <rect x="0" y="0" width="115" height="4" rx="2" fill="#1b2942"/>
+      <g transform="translate(248, 0)">
+        <rect x="0" y="0" width="112" height="4" rx="2" fill="#1b2942"/>
         <rect x="0" y="0" width="0" height="4" rx="2" fill="#ff354f" class="abt-bar-3"/>
       </g>
     </g>
@@ -477,62 +468,50 @@ def build_about():
     <rect x="0" y="16" width="360" height="264" rx="12" fill="#0d1726" stroke="#23334d" stroke-width="1"/>
 
     <!-- Slide 1 -->
-    <g class="abt-s1" transform="translate(24, 38)">
-      <rect x="0" y="0" width="180" height="22" rx="4" fill="#247bff" fill-opacity="0.15"/>
+    <g class="abt-s1" transform="translate(24, 46)">
+      <rect x="0" y="0" width="170" height="22" rx="4" fill="#247bff" fill-opacity="0.15"/>
       <text x="8" y="15" fill="#247bff" class="abt-font-mono" font-size="10.5" font-weight="600" letter-spacing="1">01 // CORE PASSION</text>
       
       <text x="0" y="48" fill="#f5f7ff" class="abt-font-display" font-size="19" font-weight="700">Competitive Programming</text>
       
-      <text x="0" y="76" fill="#8995ad" class="abt-font-display" font-size="13">
-        <tspan x="0" dy="0">Daily commitment to breaking down complex</tspan>
-        <tspan x="0" dy="19">algorithmic challenges into optimal graph, tree,</tspan>
-        <tspan x="0" dy="19">and dynamic programming solutions.</tspan>
-      </text>
+      <text x="0" y="76" fill="#8995ad" class="abt-font-display" font-size="13.5">Loves to solve problems.</text>
 
-      <g transform="translate(0, 142)">
+      <g transform="translate(0, 110)">
         <rect x="0" y="0" width="312" height="66" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
-        <text x="14" y="25" fill="#247bff" class="abt-font-mono" font-size="11">✓ Active on LeetCode &amp; Codeforces</text>
-        <text x="14" y="47" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Focus: C++ STL &amp; Optimal Time Complexity</text>
+        <text x="14" y="26" fill="#247bff" class="abt-font-mono" font-size="11">✓ Active on LeetCode &amp; Codeforces</text>
+        <text x="14" y="48" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Focus: C++ STL &amp; Data Structures</text>
       </g>
     </g>
 
     <!-- Slide 2 -->
-    <g class="abt-s2" transform="translate(24, 38)">
-      <rect x="0" y="0" width="200" height="22" rx="4" fill="#247bff" fill-opacity="0.15"/>
-      <text x="8" y="15" fill="#247bff" class="abt-font-mono" font-size="10.5" font-weight="600" letter-spacing="1">02 // ARCHITECTURE &amp; BUILD</text>
+    <g class="abt-s2" transform="translate(24, 46)">
+      <rect x="0" y="0" width="160" height="22" rx="4" fill="#247bff" fill-opacity="0.15"/>
+      <text x="8" y="15" fill="#247bff" class="abt-font-mono" font-size="10.5" font-weight="600" letter-spacing="1">02 // CURRENT BUILD</text>
       
-      <text x="0" y="48" fill="#f5f7ff" class="abt-font-display" font-size="19" font-weight="700">Building UniRank Platform</text>
+      <text x="0" y="48" fill="#f5f7ff" class="abt-font-display" font-size="19" font-weight="700">Building UniRank</text>
       
-      <text x="0" y="76" fill="#8995ad" class="abt-font-display" font-size="13">
-        <tspan x="0" dy="0">Engineering UniRank — an automated code</tspan>
-        <tspan x="0" dy="19">evaluation &amp; assessment platform. Handling</tspan>
-        <tspan x="0" dy="19">sandboxed execution with Docker &amp; Judge0.</tspan>
-      </text>
+      <text x="0" y="76" fill="#8995ad" class="abt-font-display" font-size="13.5">Building UniRank platform.</text>
 
-      <g transform="translate(0, 142)">
+      <g transform="translate(0, 110)">
         <rect x="0" y="0" width="312" height="66" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
-        <text x="14" y="25" fill="#00e599" class="abt-font-mono" font-size="11">✓ Sandboxed Execution (Docker / Judge0)</text>
-        <text x="14" y="47" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Node.js • Express • MySQL Schemas</text>
+        <text x="14" y="26" fill="#00e599" class="abt-font-mono" font-size="11">✓ Web Application in Active Development</text>
+        <text x="14" y="48" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Full Stack Web Application</text>
       </g>
     </g>
 
     <!-- Slide 3 -->
-    <g class="abt-s3" transform="translate(24, 38)">
-      <rect x="0" y="0" width="205" height="22" rx="4" fill="#ff354f" fill-opacity="0.15"/>
-      <text x="8" y="15" fill="#ff354f" class="abt-font-mono" font-size="10.5" font-weight="600" letter-spacing="1">03 // SYSTEMS &amp; INTEGRITY</text>
+    <g class="abt-s3" transform="translate(24, 46)">
+      <rect x="0" y="0" width="210" height="22" rx="4" fill="#ff354f" fill-opacity="0.15"/>
+      <text x="8" y="15" fill="#ff354f" class="abt-font-mono" font-size="10.5" font-weight="600" letter-spacing="1">03 // ENGINEERING JOURNEY</text>
       
-      <text x="0" y="48" fill="#f5f7ff" class="abt-font-display" font-size="19" font-weight="700">Secure Platform Telemetry</text>
+      <text x="0" y="48" fill="#f5f7ff" class="abt-font-display" font-size="19" font-weight="700">Software Engineering</text>
       
-      <text x="0" y="76" fill="#8995ad" class="abt-font-display" font-size="13">
-        <tspan x="0" dy="0">Developing platforms with real-time audit</tspan>
-        <tspan x="0" dy="19">logging, role-based access control (RBAC),</tspan>
-        <tspan x="0" dy="19">and anti-cheat event verification pipelines.</tspan>
-      </text>
+      <text x="0" y="76" fill="#8995ad" class="abt-font-display" font-size="13.5">Software engineering in progress.</text>
 
-      <g transform="translate(0, 142)">
+      <g transform="translate(0, 110)">
         <rect x="0" y="0" width="312" height="66" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
-        <text x="14" y="25" fill="#ff354f" class="abt-font-mono" font-size="11">✓ Anti-Cheat &amp; Telemetry Audits</text>
-        <text x="14" y="47" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Role-Based Access Control (RBAC)</text>
+        <text x="14" y="26" fill="#ff354f" class="abt-font-mono" font-size="11">✓ B.Tech Information Science &amp; Eng.</text>
+        <text x="14" y="48" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Building Modern Scalable Software</text>
       </g>
     </g>
   </g>
@@ -774,11 +753,11 @@ def build_stack():
           <text x="10" y="19" fill="#f5f7ff" class="stk-font-mono" font-size="11" font-weight="600">Express.js</text>
         </g>
         <g transform="translate(209, 0)">
-          <rect x="0" y="0" width="85" height="30" rx="6" fill="#101c30" stroke="#23334d" stroke-width="1"/>
-          <text x="10" y="19" fill="#00e599" font-size="11">⚡</text>
-          <text x="26" y="19" fill="#f5f7ff" class="stk-font-mono" font-size="11" font-weight="600">Judge0</text>
+          <rect x="0" y="0" width="90" height="30" rx="6" fill="#101c30" stroke="#23334d" stroke-width="1"/>
+          <text x="8" y="19" fill="#00e599" font-size="11">⚡</text>
+          <text x="24" y="19" fill="#f5f7ff" class="stk-font-mono" font-size="10.5" font-weight="600">REST APIs</text>
         </g>
-        <g transform="translate(302, 0)">
+        <g transform="translate(307, 0)">
           <rect x="0" y="0" width="85" height="30" rx="6" fill="#101c30" stroke="#23334d" stroke-width="1"/>
           <path d="{ICON_PATHS['docker']}" fill="#2496ED" transform="translate(8, 7) scale(0.65)"/>
           <text x="30" y="19" fill="#f5f7ff" class="stk-font-mono" font-size="11" font-weight="600">Docker</text>
@@ -1058,7 +1037,7 @@ def build_id_dashboard():
       <text x="21" y="47" fill="#ff354f" font-size="13">⚡</text>
       <text x="54" y="24" fill="#8995ad" class="idd-font-mono" font-size="10" letter-spacing="1">CURRENT SYSTEM IN DEVELOPMENT</text>
       <text x="54" y="46" fill="#f5f7ff" class="idd-font-display" font-size="15" font-weight="700">Building UniRank</text>
-      <text x="54" y="66" fill="#8995ad" class="idd-font-mono" font-size="11">High-Performance Assessment Platform &amp; Sandboxed Code Execution (Judge0/Docker)</text>
+      <text x="54" y="66" fill="#8995ad" class="idd-font-mono" font-size="11">Modern Online Web Assessment &amp; Learning Platform</text>
       <rect x="385" y="14" width="95" height="20" rx="4" fill="#080e1a" stroke="#ff354f" stroke-width="1"/>
       <text x="432" y="27" text-anchor="middle" fill="#ff354f" class="idd-font-mono" font-size="9" font-weight="700">IN PROGRESS</text>
     </g>
@@ -1308,7 +1287,7 @@ readme_content = """# Hi there, I'm Prasanna Karagar 👋
 
 | Project / Work | Description | Tech Stack | Status |
 |:---|:---|:---|:---|
-| **Building UniRank** | High-performance online assessment & evaluation platform with sandboxed code execution, real-time proctoring telemetry, and automated scoring. | `Node.js` `Express` `React` `Judge0` `Docker` `MySQL` | 🔨 *In Active Development* |
+| **Building UniRank** | Modern web platform in active development. | `Node.js` `Express` `React` `MySQL` | 🔨 *In Active Development* |
 | **Student Academic Portfolio** | Modern responsive academic portfolio showcasing architecture, Git collaboration workflows, and static optimization. | `HTML5` `Modern CSS3` `Vanilla JS` `GitHub Pages` | [prasanna-k-2006/R25EQ059](https://github.com/prasanna-k-2006/R25EQ059) |
 
 ---
@@ -1481,8 +1460,8 @@ preview_html = """<!DOCTYPE html>
       <tbody>
         <tr>
           <td><strong>Building UniRank</strong></td>
-          <td>High-performance online assessment &amp; evaluation platform with sandboxed code execution, real-time proctoring telemetry, and automated scoring.</td>
-          <td><code>Node.js</code> <code>Express</code> <code>React</code> <code>Judge0</code> <code>Docker</code> <code>MySQL</code></td>
+          <td>Modern web platform in active development.</td>
+          <td><code>Node.js</code> <code>Express</code> <code>React</code> <code>MySQL</code></td>
           <td><em>🔨 In Active Development</em></td>
         </tr>
         <tr>

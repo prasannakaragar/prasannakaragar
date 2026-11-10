@@ -42,7 +42,7 @@
 
 | Project / Work | Description | Tech Stack | Status |
 |:---|:---|:---|:---|
-| **Building UniRank** | High-performance online assessment & evaluation platform with sandboxed code execution, real-time proctoring telemetry, and automated scoring. | `Node.js` `Express` `React` `Judge0` `Docker` `MySQL` | 🔨 *In Active Development* |
+| **Building UniRank** | Modern web platform in active development. | `Node.js` `Express` `React` `MySQL` | 🔨 *In Active Development* |
 | **Student Academic Portfolio** | Modern responsive academic portfolio showcasing architecture, Git collaboration workflows, and static optimization. | `HTML5` `Modern CSS3` `Vanilla JS` `GitHub Pages` | [prasanna-k-2006/R25EQ059](https://github.com/prasanna-k-2006/R25EQ059) |
 
 ---
