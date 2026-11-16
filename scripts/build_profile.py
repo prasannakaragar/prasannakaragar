@@ -251,7 +251,7 @@ def build_hero():
       <rect x="0" y="0" width="205" height="34" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
       <text x="14" y="21" fill="#247bff" font-size="13">🎓</text>
       <text x="36" y="21" fill="#f5f7ff" class="hero-font-mono" font-size="11" font-weight="600">REVA UNIVERSITY</text>
-      <text x="155" y="21" fill="#8995ad" class="hero-font-mono" font-size="11">'27</text>
+      <text x="155" y="21" fill="#8995ad" class="hero-font-mono" font-size="11">'29</text>
     </g>
 
     <!-- Pill 2: Program -->
@@ -284,7 +284,7 @@ def build_hero():
 
       <!-- Clipped Image -->
       <g clip-path="url(#hero-local-portrait-clip)">
-        <image href="data:image/png;base64,{id_b64}" x="10" y="10" width="260" height="330" preserveAspectRatio="xMidYMid meet"/>
+        <image href="data:image/png;base64,{id_b64}" x="0" y="0" width="280" height="340" preserveAspectRatio="xMidYMid slice"/>
       </g>
 
       <!-- Verified Floating Pill -->
@@ -486,16 +486,16 @@ def build_about():
     <!-- Slide 2 -->
     <g class="abt-s2" transform="translate(24, 46)">
       <rect x="0" y="0" width="160" height="22" rx="4" fill="#247bff" fill-opacity="0.15"/>
-      <text x="8" y="15" fill="#247bff" class="abt-font-mono" font-size="10.5" font-weight="600" letter-spacing="1">02 // CURRENT BUILD</text>
+      <text x="8" y="15" fill="#247bff" class="abt-font-mono" font-size="10.5" font-weight="600" letter-spacing="1">02 // CORE DOMAIN</text>
       
-      <text x="0" y="48" fill="#f5f7ff" class="abt-font-display" font-size="19" font-weight="700">Building UniRank</text>
+      <text x="0" y="48" fill="#f5f7ff" class="abt-font-display" font-size="19" font-weight="700">Full Stack Development</text>
       
-      <text x="0" y="76" fill="#8995ad" class="abt-font-display" font-size="13.5">Building UniRank platform.</text>
+      <text x="0" y="76" fill="#8995ad" class="abt-font-display" font-size="13.5">Building scalable modern web applications.</text>
 
       <g transform="translate(0, 110)">
         <rect x="0" y="0" width="312" height="66" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
-        <text x="14" y="26" fill="#00e599" class="abt-font-mono" font-size="11">✓ Web Application in Active Development</text>
-        <text x="14" y="48" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Full Stack Web Application</text>
+        <text x="14" y="26" fill="#00e599" class="abt-font-mono" font-size="11">✓ Modern Web Architectures &amp; APIs</text>
+        <text x="14" y="48" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Node.js • React • Express • MySQL</text>
       </g>
     </g>
 
@@ -963,7 +963,7 @@ def build_id_dashboard():
         <!-- Card Header Banner -->
         <g transform="translate(16, 32)">
           <text x="0" y="10" fill="#247bff" class="idd-font-mono" font-size="8.5" font-weight="700" letter-spacing="1">VERIFIED DEVELOPER ID</text>
-          <text x="198" y="10" text-anchor="end" fill="#ff354f" class="idd-font-mono" font-size="8.5" font-weight="700">2026-27</text>
+          <text x="198" y="10" text-anchor="end" fill="#ff354f" class="idd-font-mono" font-size="8.5" font-weight="700">2025-29</text>
           <line x1="0" y1="16" x2="198" y2="16" stroke="#23334d" stroke-width="1"/>
         </g>
 
@@ -971,7 +971,7 @@ def build_id_dashboard():
         <g transform="translate(16, 56)">
           <g clip-path="url(#idd-photo-clip)">
             <rect x="0" y="0" width="85" height="105" fill="#070b16"/>
-            <image href="data:image/png;base64,{id_b64}" x="-10" y="-8" width="105" height="120" preserveAspectRatio="xMidYMid slice"/>
+            <image href="data:image/png;base64,{id_b64}" x="0" y="0" width="85" height="105" preserveAspectRatio="xMidYMid slice"/>
           </g>
           <rect x="0.5" y="0.5" width="84" height="104" rx="7.5" fill="none" stroke="#247bff" stroke-width="1.2" stroke-opacity="0.5"/>
 
@@ -992,16 +992,19 @@ def build_id_dashboard():
         <!-- Name & Role -->
         <g transform="translate(16, 178)">
           <text x="0" y="16" fill="#f5f7ff" class="idd-font-display" font-size="15.5" font-weight="700">PRASANNA KARAGAR</text>
-          <text x="0" y="32" fill="#8995ad" class="idd-font-mono" font-size="9" font-weight="600" letter-spacing="0.5">SOFTWARE ENGINEER (IN TRAINING)</text>
+          <text x="0" y="32" fill="#247bff" class="idd-font-mono" font-size="8.5" font-weight="600" letter-spacing="0.5">SOFTWARE ENGINEERING IN PROGRESS</text>
         </g>
 
-        <!-- Key Focus Chips -->
+        <!-- Key Focus Chips (Separately translated and centered, no overlap) -->
         <g transform="translate(16, 224)">
-          <rect x="0" y="0" width="88" height="22" rx="4" fill="#101c30" stroke="#23334d" stroke-width="1"/>
-          <text x="8" y="15" fill="#247bff" class="idd-font-mono" font-size="8.5" font-weight="600">DSA &amp; CP</text>
-
-          <rect x="96" y="0" width="102" height="22" rx="4" fill="#101c30" stroke="#23334d" stroke-width="1"/>
-          <text x="8" y="15" fill="#ff354f" class="idd-font-mono" font-size="8.5" font-weight="600">BACKEND ARCH</text>
+          <g transform="translate(0, 0)">
+            <rect x="0" y="0" width="94" height="22" rx="4" fill="#101c30" stroke="#247bff" stroke-width="1" stroke-opacity="0.5"/>
+            <text x="47" y="15" text-anchor="middle" fill="#247bff" class="idd-font-mono" font-size="8.5" font-weight="600">DSA &amp; CP</text>
+          </g>
+          <g transform="translate(102, 0)">
+            <rect x="0" y="0" width="96" height="22" rx="4" fill="#101c30" stroke="#ff354f" stroke-width="1" stroke-opacity="0.5"/>
+            <text x="48" y="15" text-anchor="middle" fill="#ff354f" class="idd-font-mono" font-size="8.5" font-weight="600">BACKEND ARCH</text>
+          </g>
         </g>
 
         <!-- Barcode Container -->
@@ -1025,21 +1028,21 @@ def build_id_dashboard():
       <text x="22" y="42" fill="#247bff" font-size="13">🎓</text>
       <text x="54" y="27" fill="#8995ad" class="idd-font-mono" font-size="10" letter-spacing="1">ACADEMIC CREDENTIALS</text>
       <text x="54" y="46" fill="#f5f7ff" class="idd-font-display" font-size="15" font-weight="700">REVA University, Bangalore</text>
-      <text x="54" y="63" fill="#247bff" class="idd-font-mono" font-size="11" font-weight="600">B.Tech Information Science Engineering (Class of 2027)</text>
+      <text x="54" y="63" fill="#247bff" class="idd-font-mono" font-size="11" font-weight="600">B.Tech Information Science Engineering (Class of 2029)</text>
       <rect x="410" y="14" width="70" height="20" rx="4" fill="#080e1a" stroke="#247bff" stroke-width="1"/>
       <text x="445" y="27" text-anchor="middle" fill="#247bff" class="idd-font-mono" font-size="9" font-weight="700">2ND YEAR</text>
     </g>
 
-    <!-- Card 2: Current Build (No private repo links, just "Building UniRank") -->
+    <!-- Card 2: Technical Focus -->
     <g transform="translate(0, 84)">
       <rect x="0" y="0" width="495" height="84" rx="10" fill="#101c30" stroke="#23334d" stroke-width="1"/>
       <circle cx="28" cy="42" r="14" fill="#ff354f" fill-opacity="0.15"/>
       <text x="21" y="47" fill="#ff354f" font-size="13">⚡</text>
-      <text x="54" y="24" fill="#8995ad" class="idd-font-mono" font-size="10" letter-spacing="1">CURRENT SYSTEM IN DEVELOPMENT</text>
-      <text x="54" y="46" fill="#f5f7ff" class="idd-font-display" font-size="15" font-weight="700">Building UniRank</text>
-      <text x="54" y="66" fill="#8995ad" class="idd-font-mono" font-size="11">Modern Online Web Assessment &amp; Learning Platform</text>
+      <text x="54" y="24" fill="#8995ad" class="idd-font-mono" font-size="10" letter-spacing="1">CORE ENGINEERING FOCUS</text>
+      <text x="54" y="46" fill="#f5f7ff" class="idd-font-display" font-size="15" font-weight="700">Full Stack &amp; Systems Architecture</text>
+      <text x="54" y="66" fill="#8995ad" class="idd-font-mono" font-size="11">Scalable Web Architecture, Modern APIs, Robust Backends &amp; Databases</text>
       <rect x="385" y="14" width="95" height="20" rx="4" fill="#080e1a" stroke="#ff354f" stroke-width="1"/>
-      <text x="432" y="27" text-anchor="middle" fill="#ff354f" class="idd-font-mono" font-size="9" font-weight="700">IN PROGRESS</text>
+      <text x="432" y="27" text-anchor="middle" fill="#ff354f" class="idd-font-mono" font-size="9" font-weight="700">CORE FOCUS</text>
     </g>
 
     <!-- Card 3: Competitive Programming & Problem Solving -->
@@ -1134,12 +1137,30 @@ def build_connect():
   </g>
 
   <!-- Ambient Character Aura -->
-  <circle cx="160" cy="200" r="140" fill="url(#conn-aura-glow)"/>
+  <circle cx="170" cy="190" r="140" fill="url(#conn-aura-glow)"/>
 
-  <!-- Character on Left (Fixed translation, inner float) -->
-  <g transform="translate(15, 20)">
+  <!-- Real Portrait Framed Card on Left -->
+  <g transform="translate(45, 58)">
     <g class="conn-inner-float">
-      <image href="data:image/png;base64,{rp_b64}" x="0" y="5" width="315" height="340" preserveAspectRatio="xMidYMid meet"/>
+      <rect x="0" y="0" width="250" height="270" rx="14" fill="#0e172a" stroke="#247bff" stroke-width="1.2" stroke-opacity="0.35"/>
+      <clipPath id="conn-portrait-clip">
+        <rect x="0" y="0" width="250" height="270" rx="14"/>
+      </clipPath>
+      <g clip-path="url(#conn-portrait-clip)">
+        <image href="data:image/png;base64,{id_b64}" x="0" y="0" width="250" height="270" preserveAspectRatio="xMidYMid slice"/>
+      </g>
+      <!-- Tech Corner Accents -->
+      <path d="M0 24 L0 14 Q0 0 14 0 L24 0" fill="none" stroke="#247bff" stroke-width="2"/>
+      <path d="M226 0 L236 0 Q250 0 250 14 L250 24" fill="none" stroke="#ff354f" stroke-width="2"/>
+      <path d="M250 246 L250 256 Q250 270 236 270 L226 270" fill="none" stroke="#247bff" stroke-width="2"/>
+      <path d="M24 270 L14 270 Q0 270 0 256 L0 246" fill="none" stroke="#ff354f" stroke-width="2"/>
+
+      <!-- Connect status pill -->
+      <g transform="translate(25, 232)">
+        <rect x="0" y="0" width="200" height="24" rx="12" fill="#070b16" stroke="#247bff" stroke-width="1.2" opacity="0.95"/>
+        <circle cx="12" cy="12" r="3" fill="#00e599"/>
+        <text x="22" y="16" fill="#f5f7ff" class="conn-font-mono" font-size="9.5" font-weight="600" letter-spacing="1">LET'S CONNECT // OPEN</text>
+      </g>
     </g>
   </g>
 
@@ -1283,17 +1304,8 @@ readme_content = """# Hi there, I'm Prasanna Karagar 👋
 
 ---
 
-### 🚀 Projects & Current Work
-
-| Project / Work | Description | Tech Stack | Status |
-|:---|:---|:---|:---|
-| **Building UniRank** | Modern web platform in active development. | `Node.js` `Express` `React` `MySQL` | 🔨 *In Active Development* |
-| **Student Academic Portfolio** | Modern responsive academic portfolio showcasing architecture, Git collaboration workflows, and static optimization. | `HTML5` `Modern CSS3` `Vanilla JS` `GitHub Pages` | [prasanna-k-2006/R25EQ059](https://github.com/prasanna-k-2006/R25EQ059) |
-
----
-
 <p align="center">
-  <sub>Crafted with precision • Verified REVA University ISE '27 Profile</sub>
+  <sub>Crafted with precision • Verified REVA University ISE '29 Profile</sub>
 </p>
 """
 
@@ -1447,31 +1459,9 @@ preview_html = """<!DOCTYPE html>
       </a>
     </div>
 
-    <h2>🚀 Projects &amp; Current Work</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Project / Work</th>
-          <th>Description</th>
-          <th>Tech Stack</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Building UniRank</strong></td>
-          <td>Modern web platform in active development.</td>
-          <td><code>Node.js</code> <code>Express</code> <code>React</code> <code>MySQL</code></td>
-          <td><em>🔨 In Active Development</em></td>
-        </tr>
-        <tr>
-          <td><strong>Student Academic Portfolio</strong></td>
-          <td>Modern responsive academic portfolio showcasing architecture, Git collaboration workflows, and static optimization.</td>
-          <td><code>HTML5</code> <code>Modern CSS3</code> <code>Vanilla JS</code> <code>GitHub Pages</code></td>
-          <td><a href="https://github.com/prasanna-k-2006/R25EQ059" target="_blank">prasanna-k-2006/R25EQ059</a></td>
-        </tr>
-      </tbody>
-    </table>
+    <p style="text-align: center; margin-top: 30px; color: #8b949e; font-size: 13px;">
+      Crafted with precision • Verified REVA University ISE '29 Profile
+    </p>
   </div>
 </body>
 </html>

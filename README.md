@@ -38,15 +38,6 @@
 
 ---
 
-### 🚀 Projects & Current Work
-
-| Project / Work | Description | Tech Stack | Status |
-|:---|:---|:---|:---|
-| **Building UniRank** | Modern web platform in active development. | `Node.js` `Express` `React` `MySQL` | 🔨 *In Active Development* |
-| **Student Academic Portfolio** | Modern responsive academic portfolio showcasing architecture, Git collaboration workflows, and static optimization. | `HTML5` `Modern CSS3` `Vanilla JS` `GitHub Pages` | [prasanna-k-2006/R25EQ059](https://github.com/prasanna-k-2006/R25EQ059) |
-
----
-
 <p align="center">
-  <sub>Crafted with precision • Verified REVA University ISE '27 Profile</sub>
+  <sub>Crafted with precision • Verified REVA University ISE '29 Profile</sub>
 </p>

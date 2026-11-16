@@ -190,16 +190,16 @@
     <!-- Slide 2 -->
     <g class="abt-s2" transform="translate(24, 46)">
       <rect x="0" y="0" width="160" height="22" rx="4" fill="#247bff" fill-opacity="0.15"/>
-      <text x="8" y="15" fill="#247bff" class="abt-font-mono" font-size="10.5" font-weight="600" letter-spacing="1">02 // CURRENT BUILD</text>
+      <text x="8" y="15" fill="#247bff" class="abt-font-mono" font-size="10.5" font-weight="600" letter-spacing="1">02 // CORE DOMAIN</text>
       
-      <text x="0" y="48" fill="#f5f7ff" class="abt-font-display" font-size="19" font-weight="700">Building UniRank</text>
+      <text x="0" y="48" fill="#f5f7ff" class="abt-font-display" font-size="19" font-weight="700">Full Stack Development</text>
       
-      <text x="0" y="76" fill="#8995ad" class="abt-font-display" font-size="13.5">Building UniRank platform.</text>
+      <text x="0" y="76" fill="#8995ad" class="abt-font-display" font-size="13.5">Building scalable modern web applications.</text>
 
       <g transform="translate(0, 110)">
         <rect x="0" y="0" width="312" height="66" rx="8" fill="#101c30" stroke="#23334d" stroke-width="1"/>
-        <text x="14" y="26" fill="#00e599" class="abt-font-mono" font-size="11">✓ Web Application in Active Development</text>
-        <text x="14" y="48" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Full Stack Web Application</text>
+        <text x="14" y="26" fill="#00e599" class="abt-font-mono" font-size="11">✓ Modern Web Architectures &amp; APIs</text>
+        <text x="14" y="48" fill="#8995ad" class="abt-font-mono" font-size="11">✓ Node.js • React • Express • MySQL</text>
       </g>
     </g>
 
